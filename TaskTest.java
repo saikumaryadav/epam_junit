@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package task;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author RGUKT
- */
 public class TaskTest {
     
     public TaskTest() {
@@ -22,7 +13,7 @@ public class TaskTest {
         Task t=new Task();
         String act=t.char2(s1);
         String a=act.toString();
-        String exp="ba";   // if first 2 characters are 'A's then i set exp value as "sai"
+        String exp="ba";   // if  2 characters are 'A's then i set exp="sai" where 2charecters string only(length of string=2)
         assertEquals(exp,a);
     }
 }
